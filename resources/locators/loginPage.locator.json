@@ -1,0 +1,7 @@
+{
+    "h2Title": "xpath=//h2[text()=\"Login Page\"]",
+    "btnLogin": "xpath=//button[@type=\"submit\"]",
+    "txtUsername": "xpath=//input[@id=\"username\"]",
+    "txtPassword": "xpath=//input[@id=\"password\"]",
+    "lblFlashMsg": "//div[@id=\"flash-messages\"]"
+}

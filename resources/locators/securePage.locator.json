@@ -1,0 +1,5 @@
+{
+    "h2Title": "xpath=//h2[contains(.,\"Secure Area\")]",
+    "btnLogout": "xpath=//a[@href=\"/logout\"]",
+    "lblFlashMsg": "//div[@id=\"flash-messages\"]"
+}

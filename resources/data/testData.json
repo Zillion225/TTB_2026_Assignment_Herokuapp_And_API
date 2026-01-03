@@ -1,0 +1,29 @@
+{
+    "test_data": {
+        "user1": {
+            "username": "tomsmith",
+            "password": "SuperSecretPassword!"
+        },
+        "userFailPasswordIncorrect": {
+            "username": "tomsmith",
+            "password": "Password!"
+        },
+        "userFailUsernameInvalid": {
+            "username": "tomholland",
+            "password": "Password!"
+        }
+    },
+    "expect_data": {
+        "api": {
+            "case_1": {
+                "data": {
+                    "id": 12,
+                    "email": "rachel.howell@reqres.in",
+                    "first_name": "Rachel",
+                    "last_name": "Howell",
+                    "avatar": "https://reqres.in/img/faces/12-image.jpg"
+                }
+            }
+        }
+    }
+}
